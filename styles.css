@@ -1,0 +1,68 @@
+:root{
+    --l-black:#1f1f1f;
+    --purple:#9A208C;
+    --pink:#E11299;
+}
+
+*{
+    font-family: 'Istok Web',sans-serif;
+    color: var(--l-black);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+}
+
+
+.headbar{
+    height: 10vh;
+    background-color: var(--purple);
+    padding: 0 5vw;
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 1px 10px var(--l-black);
+}
+
+.enter{
+    margin-top: 5vh;
+    height: 45vh;
+    width: 90vw;
+    margin-left: 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.string{
+    resize: none;
+    height: 40vh;
+    width: 41vw;
+    border: 1px solid var(--l-black);
+    border-radius: 3px;
+    overflow-y: scroll;
+    font-size: 1.5vw;
+    padding: 1vw;
+}
+
+.check{
+    width: 90vw;
+    height: 8vh;
+    margin-left: 5vw;
+    margin-top: 3vh;
+    background-color: var(--purple);
+    font-size: 2vw;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px var(--l-black);
+}
+
+.result{
+    height: 20vh;
+    margin: 3vh 5vw;
+    width: 88vw;
+}
